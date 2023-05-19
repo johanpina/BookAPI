@@ -1,7 +1,8 @@
 from fastapi import FastAPI, Depends
 from database import SessionLocal, Base, engine
 from models import LibroDB
-
+from schema import LibroBase, Libro
+from sqlalchemy.orm import Session
 
 Base.metadata.create_all(bind=engine)
 
