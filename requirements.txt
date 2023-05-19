@@ -3,3 +3,4 @@ uvicorn
 sqlalchemy 
 async-exit-stack 
 async-generator
+guinicorn
